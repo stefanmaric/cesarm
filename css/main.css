@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #0A0D0C;
+  font-size: 1.3vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+#main .container {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+#main .avatar {
+  height: 14em;
+  width: 14em;
+  border-radius: 50%;
+  overflow: hidden;
+  border: .8em solid #5A1E26;
+  background-color: #fff;
+  padding: .3em;
+  display: block;
+  margin: 0 auto;
+}
+
+#main .avatar .image {
+  background-image: url('/img/cesarm.jpg');
+  background-size: 100%;
+  background-position: center center;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+#main .name,
+#main .sub-heading {
+  color: #F1F2ED;
+  letter-spacing: .075em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+#main .name {
+  word-spacing: .25em;
+  font-size: 3.2em;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+#main .sub-heading {
+  font-size: 2em;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+#main .contact {
+  text-align: center;
+  font-size: 1.6em;
+  margin-top: 1.6em;
+  margin-bottom: 0;
+}
+
+#main .contact a {
+  font-family: 'Raleway', sans-serif;
+  color: #A4A69D;
+  text-transform: lowercase;
+  letter-spacing: .1em;
+  text-decoration: none;
+}
+
+#main .contact .divider:before {
+  color: #69725B;
+  content: "●";
+  margin-right: 1em;
+  margin-left: 1em;
+}
