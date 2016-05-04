@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main .avatar .image {
-  background-image: url('/img/cesarm.jpg');
+  background-image: url('../img/cesarm.jpg');
   background-size: 100%;
   background-position: center center;
   border-radius: 50%;
